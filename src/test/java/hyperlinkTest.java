@@ -33,6 +33,7 @@ public class hyperlinkTest {
         driver.findElement(By.linkText("here")).click();
 
         driver.findElement(By.linkText("404")).click();
+
         Assert.assertEquals(driver.getCurrentUrl(),"https://the-internet.herokuapp.com/status_codes/404");
         driver.findElement(By.linkText("here")).click();
 
