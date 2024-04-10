@@ -16,7 +16,6 @@ public class hyperlinkTest {
         driver.get("https://the-internet.herokuapp.com");
 
         driver.findElement(By.linkText("Redirect Link")).click();
-
         Thread.sleep(500);
 
         driver.findElement(By.linkText("here")).click();
